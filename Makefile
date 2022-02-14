@@ -1,2 +1,2 @@
 default:
-	g++ -o ./bin/arrSort ./main.cpp
+	g++ -no-pie -o ./bin/arrSort ./main.cpp
