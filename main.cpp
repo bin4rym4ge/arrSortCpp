@@ -10,7 +10,7 @@ int main()
 	int arrLength = 100;
 	int arr[arrLength];
 
-	srand((unsigned)time(NULL));
+	srand((unsigned)time(NULL)); //set seed using time
 
 	cout << "generating random array...\n\n";
 
@@ -44,7 +44,7 @@ int main()
 
 	cout << "printing sorted array:\n";
 
-	for (int i = 1; i < arrLength; i++)
+	for (int i = 1; i < arrLength; i++) //print results
 	{
 		cout << arr[i] << '\n';
 	}
