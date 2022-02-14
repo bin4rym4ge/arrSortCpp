@@ -7,7 +7,7 @@ using std::swap;
 
 int main()
 {
-	int arrLength = 7;
+	int arrLength = 100;
 	int arr[arrLength];
 
 	srand((unsigned)time(NULL));
@@ -16,7 +16,7 @@ int main()
 
 	for (int i = 0; i < arrLength; i++) // generate random array of length arrLength
 	{
-		arr[i] = rand() % 100;
+		arr[i] = rand() % 1000;
 	}
 
 	cout << "printing array:\n";
